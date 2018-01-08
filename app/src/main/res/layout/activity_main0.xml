@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.example.twoweek.view.Main0Activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="商品展示"
+            />
+
+    </LinearLayout>
+
+
+   <!-- <ImageView
+        android:id="@+id/img"
+        android:layout_width="256dp"
+        android:layout_height="229dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_launcher" />-->
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        android:layout_marginTop="10dp"
+
+        fresco:failureImage="@drawable/c"
+        fresco:failureImageScaleType="centerInside"
+
+
+        fresco:placeholderImage="@drawable/aa"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:progressBarAutoRotateInterval="5000"
+
+
+        fresco:progressBarImage="@drawable/b"
+        fresco:progressBarImageScaleType="centerInside"
+
+        fresco:retryImage="@drawable/d"
+        fresco:retryImageScaleType="centerCrop"
+
+
+
+
+        ></com.facebook.drawee.view.SimpleDraweeView>
+
+
+
+    <TextView
+        android:id="@+id/little"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="hahh1"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/yjprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#FF0000"
+        android:text="hahh1"
+        />
+
+    <TextView
+        android:id="@+id/dzprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="hahh1"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:onClick="gwcbtn"
+            android:gravity="center"
+            android:id="@+id/gwcbtn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="购物车"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:onClick="jrgwc"
+            android:gravity="center"
+            android:id="@+id/addbtn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="加入购物车"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
