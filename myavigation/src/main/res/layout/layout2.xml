@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000fff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="顶顶顶死你股份那大概in号广东省内付款斯诺伐克迪士尼发快递斯诺伐克独食难肥独守空房纳斯达克烦恼都是开发商能否看上你11"
+        android:textSize="18sp"
+   />
+
+</LinearLayout>
